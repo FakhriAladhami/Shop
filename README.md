@@ -1,19 +1,19 @@
 
-Overview:
+<h3>Overview:</h3><br>
  a potion shop to create an inventory system for their store. The potion
 shop sells a variety of potions, including love potions, health potions, and transformation
-potions.A program  will allow the store to keep track of their inventory.
-The program is meeting the following requirements:
-● The program should allow the store to add new potions to their inventory.
-● The program should allow the store to remove potions from their inventory.
+potions.A program  will allow the store to keep track of their inventory.<br>
+<h4><strong>The program is meeting the following requirements:</strong></h4><br>
+● The program should allow the store to add new potions to their inventory.<br>
+● The program should allow the store to remove potions from their inventory.<br>
 ● The program should allow the store to search for potions in their inventory based on a
-search term.
+search term.<br>
 ● The program should display a formatted table of all the potions in the inventory, including
-their name, quantity, price, and total value.
-● The program should calculate the total value of the inventory.
+their name, quantity, price, and total value.<br>
+● The program should calculate the total value of the inventory.<br>
 
 Program Instructions:<br>
-a new Java class called InventoryItem.
+a new Java class called InventoryItem.<br>
 1.The InventoryItem class will have the following instance variables:<br>
 ● name (String)<br>
 ● id (int)<br>
@@ -72,105 +72,105 @@ and price of each item.<br>
 ● Quit:<br>
 ○ Display a goodbye message.<br>
 
-Example Output:
+<h3>Example Output:</h3><br>
 Welcome to the Potion Inventory System
 1. Add Item
 2. Remove Item
 3. Search for Item
 4. Display Inventory
-5. Quit
-Enter your choice: 8
-Invalid input. Please enter a number between 1 and 5.
-Enter your choice: 1
-Enter item name: health potion
-Enter item ID: 001
-Enter item quantity: 34
-Enter item price: $3
-Item added successfully.
-1. Add Item
-2. Remove Item
-3. Search for Item
-4. Display Inventory
-5. Quit
-Enter your choice: 1
-Enter item name: health flask
-Enter item ID: 002
-Enter item quantity: 66
-Enter item price: $2.75
-Item added successfully.
-1. Add Item
-2. Remove Item
-3. Search for Item
-4. Display Inventory
-5. Quit
-Enter your choice: 1
-Enter item name: mana potion
-Enter item ID: 003
-Enter item quantity: 99
-Enter item price: $2.75
-Item added successfully.
-1. Add Item
-2. Remove Item
-3. Search for Item
-4. Display Inventory
-5. Quit
-Enter your choice: 3
-Enter search term: health
-Name ID Quantity Price
-health potion 1 34 $3.00
-health flask 2 66 $2.75
-1. Add Item
-2. Remove Item
-3. Search for Item
-4. Display Inventory
-5. Quit
-Enter your choice: 4
-Inventory Item List:
-Name ID Quantity Price
-health potion 1 34 $3.00
-health flask 2 66 $2.75
-mana potion 3 99 $2.75
-Total Value: $555.75
-1. Add Item
-2. Remove Item
-3. Search for Item
-4. Display Inventory
-5. Quit
-Enter your choice: 2
-Enter item ID: 002
-Item removed successfully.
-1. Add Item
-2. Remove Item
-3. Search for Item
-4. Display Inventory
-5. Quit
-Enter your choice: 4
-Inventory Item List:
-Name ID Quantity Price
-health potion 1 34 $3.00
-mana potion 3 99 $2.75
-Total Value: $374.25
-1. Add Item
-2. Remove Item
-3. Search for Item
-4. Display Inventory
-5. Quit
-Enter your choice: 3
-Enter search term: flask
-No items found.
-1. Add Item
-2. Remove Item
-3. Search for Item
-4. Display Inventory
-5. Quit
-Enter your choice: 2
-Enter item ID: 002
-Item not found.
-1. Add Item
-2. Remove Item
-3. Search for Item
-4. Display Inventory
-5. Quit
-Enter your choice: 5
-Goodbye
+5. Quit<br>
+Enter your choice: 8<br>
+Invalid input. Please enter a number between 1 and 5.<br>
+Enter your choice: 1<br>
+Enter item name: health potion<br>
+Enter item ID: 001<br>
+Enter item quantity: 34<br>
+Enter item price: $3<br>
+Item added successfully.<br>
+1. Add Item<br>
+2. Remove Item<br>
+3. Search for Item<br>
+4. Display Inventory<br>
+5. Quit<br>
+Enter your choice: 1<br>
+Enter item name: health flask<br>
+Enter item ID: 002<br>
+Enter item quantity: 66<br>
+Enter item price: $2.75<br>
+Item added successfully.<br>
+1. Add Item<br>
+2. Remove Item<br>
+3. Search for Item<br>
+4. Display Inventory<br>
+5. Quit<br>
+Enter your choice: 1<br>
+Enter item name: mana potion<br>
+Enter item ID: 003<br>
+Enter item quantity: 99<br>
+Enter item price: $2.75<br>
+Item added successfully.<br>
+1. Add Item<br>
+2. Remove Item<br>
+3. Search for Item<br>
+4. Display Inventory<br>
+5. Quit<br>
+Enter your choice: 3<br>
+Enter search term: health<br>
+Name ID Quantity Price<br>
+health potion 1 34 $3.00<br>
+health flask 2 66 $2.75<br>
+1. Add Item<br>
+2. Remove Item<br>
+3. Search for Item<br>
+4. Display Inventory<br>
+5. Quit<br>
+Enter your choice: 4<br>
+Inventory Item List:<br>
+Name ID Quantity Price<br>
+health potion 1 34 $3.00<br>
+health flask 2 66 $2.75<br>
+mana potion 3 99 $2.75<br>
+Total Value: $555.75<br>
+1. Add Item<br>
+2. Remove Item<br>
+3. Search for Item<br>
+4. Display Inventory<br>
+5. Quit<br>
+Enter your choice: 2<br>
+Enter item ID: 002<br>
+Item removed successfully.<br>
+1. Add Item<br>
+2. Remove Item<br>
+3. Search for Item<br>
+4. Display Inventory<br>
+5. Quit<br>
+Enter your choice: 4<br>
+Inventory Item List:<br>
+Name ID Quantity Price<br>
+health potion 1 34 $3.00<br>
+mana potion 3 99 $2.75<br>
+Total Value: $374.25<br>
+1. Add Item<br>
+2. Remove Item<br>
+3. Search for Item<br>
+4. Display Inventory<br>
+5. Quit<br>
+Enter your choice: 3<br>
+Enter search term: flask<br>
+No items found.<br>
+1. Add Item<br>
+2. Remove Item<br>
+3. Search for Item<br>
+4. Display Inventory<br>
+5. Quit<br>
+Enter your choice: 2<br>
+Enter item ID: 002<br>
+Item not found.<br>
+1. Add Item<br>
+2. Remove Item<br>
+3. Search for Item<br>
+4. Display Inventory<br>
+5. Quit<br>
+Enter your choice: 5<br>
+Goodbye<br>
 
